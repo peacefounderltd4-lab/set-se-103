@@ -1,1 +1,2 @@
-touch 0-copy_html
+#!/bin/bash
+cp -u -t .. *.html

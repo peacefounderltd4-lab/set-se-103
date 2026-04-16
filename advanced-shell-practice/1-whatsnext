@@ -1,6 +1,2 @@
-cat > advanced-shell-practice/1-whatsnext << 'EOF'
 #!/bin/bash
-grep -A3 root /etc/passwd
-EOF
-
-chmod +x advanced-shell-practice/1-whatsnext
+grep -A3 "root" /etc/passwd

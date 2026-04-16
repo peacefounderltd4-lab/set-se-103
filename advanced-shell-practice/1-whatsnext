@@ -1,4 +1,6 @@
-root:x:0:0:root:/root:/bin/bash
-daemon:x:1:1:daemon:...
-bin:x:2:2:bin:...
-sys:x:3:3:sys:...
+cat > advanced-shell-practice/1-whatsnext << 'EOF'
+#!/bin/bash
+grep -A3 root /etc/passwd
+EOF
+
+chmod +x advanced-shell-practice/1-whatsnext

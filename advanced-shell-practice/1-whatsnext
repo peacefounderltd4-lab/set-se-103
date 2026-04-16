@@ -1,4 +1,3 @@
-cat > advanced-shell-practice/1-whatsnext << 'EOF'
 #!/bin/bash
 grep -A3 '^root' /etc/passwd
 EOF
